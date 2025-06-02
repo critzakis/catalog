@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+#catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  max-width: 512px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.item p {
+  font-size: 1rem;
+  color: #333;
+}
